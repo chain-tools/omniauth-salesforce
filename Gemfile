@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 source 'https://rubygems.org'
 
 gemspec
@@ -7,9 +9,9 @@ group :development do
 end
 
 group :development, :test do
-  gem 'guard'
-  gem 'guard-rspec'
-  gem 'guard-bundler'
-  gem 'rb-fsevent'
   gem 'growl'
+  gem 'guard'
+  gem 'guard-bundler'
+  gem 'guard-rspec'
+  gem 'rb-fsevent'
 end
